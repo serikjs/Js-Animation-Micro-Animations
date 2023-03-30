@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(260deg, #6a9eec, #65c0d3);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	background-color: #fff;
+	color: black;
+	padding: 5rem;
+	border-radius: 2rem;
+}
+@media screen and (max-width: 480px) {
+	.container {
+		padding: 3rem 1.5rem;
+	}
+}
+.home,
+.notification,
+.message {
+	display: flex;
+	padding: 2rem;
+	align-items: center;
+	gap: 2rem;
+	cursor: pointer;
+}
+.notification-svg,
+.messages-svg {
+	overflow: visible;
+}
